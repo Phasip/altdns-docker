@@ -19,4 +19,8 @@ jobs:
         git config --local user.name "GitHub Action"
         git add altdns_version
         git commit -m "New altdns version" -a
-        git push "https://phasip:${{ secrets.GITHUB_TOKEN }}@github.com/Phasip/altdns-docker.git" HEAD:master --follow-tags
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
