@@ -1,10 +1,10 @@
 Name: py-altdns
-Version: 1.0.0
+Version: 1.0.2
 Summary: Generates permutations, alterations and mutations of subdomains and then resolves them.
 Home-page: https://github.com/infosec-au/altdns
 Author: Shubham Shah
 Author-email: sshah@assetnote.io
 License: UNKNOWN
 Location: /home/runner/.local/lib/python3.8/site-packages
-Requires: termcolor, tldextract, argparse, dnspython
+Requires: termcolor, argparse, tldextract, dnspython
 Required-by: 
