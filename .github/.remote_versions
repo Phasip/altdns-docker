@@ -6,5 +6,5 @@ Author: Shubham Shah
 Author-email: sshah@assetnote.io
 License: UNKNOWN
 Location: /home/runner/.local/lib/python3.8/site-packages
-Requires: termcolor, argparse, tldextract, dnspython
+Requires: tldextract, termcolor, argparse, dnspython
 Required-by: 
