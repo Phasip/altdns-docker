@@ -5,6 +5,6 @@ Home-page: https://github.com/infosec-au/altdns
 Author: Shubham Shah
 Author-email: sshah@assetnote.io
 License: UNKNOWN
-Location: /home/runner/.local/lib/python3.8/site-packages
-Requires: dnspython, termcolor, argparse, tldextract
+Location: /home/runner/.local/lib/python3.10/site-packages
+Requires: argparse, dnspython, termcolor, tldextract
 Required-by: 
